@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!--script and style will be written in head only not in body part-->
+    <!--<element>content</element>-->
+    <!--This is a comment,Crtl+'/'-->
+    <!--lorem give us a dummy text-->
+    <!--img tag is a selfclosing element,src and alt are attributes,attr-describe the element-->
+  </head>
+  <body>
+    <a href="https://www.instagram.com/" target="_blank">
+      <img src="./images/lptop.png" width="200" alt="" />
+    </a>
+
+    <h1 id="top">Top of the image</h1>
+    <a href="about.html">about</a>
+    <h1>This is header tag 1</h1>
+    <h2>This is header tag 2</h2>
+    <h3>This is header tag 3</h3>
+    <h4>This is header tag 4</h4>
+    <h5>This is header tag 5</h5>
+    <h6>This is header tag 6</h6>
+    <p>
+      This is a paragraph.We can write like a novel.Content is written over here
+      in the p tags
+    </p>
+    <p>Hi NIranjan</p>
+    <!--HTML ignores all the white spaces-->
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore adipisci
+      animi sint error praesentium perferendis accusantium. Maiores magnam
+      similique, molestiae soluta ea aspernatur numquam veritatis esse ab
+      temporibus? Fugit, numquam!
+    </p>
+
+    <!--<img src="/pdtr.jpg" alt="Proddatur image">--This will give img in live server but not in the file-->
+    <!--<img src="pdtr.jpg" alt="Proddatur image">This will give image at any place either server or in file provided the img should be in the same folder where html is present-->
+
+    <h3>Image of my city</h3>
+    <img src="./images/pdtr.jpg" alt="Proddatur image" />
+
+    <!--click on copy img addrs to directly copy but it occupies more lines,Note:Check copyright-->
+    <!--Free images sites-"No copyright"-pixabay-"pexels"-gratisography-->
+    l
+    <br /><!--Line break or we can say new line-->
+
+    <h3>Image of a laptop</h3>
+    <!--Best way is to crop the image using snippertool-->
+    <img
+      src="./images/lptop.png"
+      width="275"
+      height="183"
+      alt="laptop img"
+    /><br />
+
+    <!--To create a link in html  write "a",We can place a image in the link-->
+    <a href="https://www.instagram.com/" target="_blank">Instagram Home page</a
+    ><br />
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+    <h1>Hello I'm <sup>1st</sup> Niranjan <sub>in town</sub></h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur, <strong>adipisicing elit</strong>.
+      Soluta voluptatem magnam fuga eligendi ea, tempore dignissimos optio
+      consequuntur vero, at corporis. In repellat explicabo, nihil maxime quae
+      laudantium? Repellat,<em> pariatur</em>.
+    </p>
+
+    <!--<a href="#"</a> if user clicks link will be present but it doesnt navigate to any folder-->
+    <h1>copyright &copy;</h1>
+    <!--HTML spcl char-->
+    <ul>
+      <!--unordered list-->
+      <li><a href="#">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+
+    <p>Some text here</p>
+    <a href="#top">Back to the top</a
+    ><!--Match the id-->
+    <ol>
+      <!--ordered list-->
+      <li>Nizy</li>
+      <li>Sudheer</li>
+      <li>Uday</li>
+    </ol>
+
+    <ul>
+      <li>Nizy</li>
+      <li>
+        Sudheer
+        <ol>
+          <li>Html</li>
+          <li>Css</li>
+          <li>Js</li>
+        </ol>
+      </li>
+      <li>Uday</li>
+    </ul>
+
+    <!--creating tables-->
+    <table>
+      <tr>
+        <th>Some info</th>
+        <th>Some info</th>
+        <th>Some info</th>
+      </tr>
+      <tr>
+        <td>Nizy</td>
+        <td>Sudheer</td>
+        <td>Uday</td>
+      </tr>
+    </table>
+
+    <!--creating forms,action-where info is sent and method-how this info is processed-->
+    <form action="" method="">
+      <label for="name">First Name</label>
+      <input type="text" name="name" id="name" /><br />
+      <p>Password</p>
+      <input type="password" placeholder="password" /><br />
+      <br />
+      <input type="email" name="" id="" value="email@email.com" /><br />
+      <p>Description</p>
+      <textarea name="" id="" cols="20" rows="10"></textarea>
+      <br />
+      <p>Please select your fav coding language</p>
+      <input
+        type="radio"
+        name="coding"
+        id=""
+        value="javaScript"
+      />JavaScript<br />
+      <input type="radio" name="coding" id="" value="java" />Java<br />
+      <input type="radio" name="coding" id="" value="python" />Python<br />
+      <br />
+      <p>Please select your fav coding language</p>
+      <input
+        type="checkbox"
+        checked
+        name="programming"
+        id=""
+        value="javascript"
+      />JavaScript<br />
+      <input type="checkbox" name="programming" id="" value="java" />Java<br />
+      <input
+        type="checkbox"
+        name="programming"
+        id=""
+        value="python"
+      />Python<br />
+      <br />
+      <p>Please select your fav coding language</p>
+      <select name="" id="">
+        <option value="javascript">Javascript</option>
+        <option value="java">Java</option>
+        <option value="python">Python</option></select
+      ><br />
+      <input type="submit" />
+      <!-- <button type="submit">Submit</button> -->
+      <!--extension for formatting the script or code is prettier -->
+      <!--MDN best website for coding documents-->
+    </form>
+  </body>
+</html>
