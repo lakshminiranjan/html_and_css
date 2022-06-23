@@ -1,0 +1,122 @@
+/* adding backgroung images */
+/* LAst-Rule Orders */
+/* *{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div{
+    min-height: 100vh;
+    color: green;
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+} */
+/* div {
+    height: 200px;
+    color: blue;
+    height: 300px;
+} */
+/* .big-img{
+    background: url("./big.webp"); */
+    /* background-repeat: repeat;default */
+    /* background-repeat: round; */
+    /* background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+} */
+/* .small-img{ */
+    /* border: 2px solid red; */
+    /* background: url("./smallf.jpeg"); */
+    /* background: url("./img/folder-img.jpeg"); */
+    /* background-repeat: no-repeat;mostly used */
+    /* background-repeat: repeat-x;
+    background-repeat: repeat-y;
+    background-repeat: space;
+    background-repeat: round; */
+    /* background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.folder-img{
+    background: url("./smallf.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+} */
+/* backgroung-position */
+/* background-attachement */
+/* background-attachement */
+/* working with gradient */
+/* body{
+    display: flex;
+} */
+/* div{
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+}
+.one{
+    background: linear-gradient(to bottom, red,green);
+}
+.two {
+    background: linear-gradient(to top, red, green,blue
+    );
+}
+.three{
+    background: linear-gradient(150deg, red,green);
+}
+.four {
+    background: linear-gradient(to top right, red, green);
+}
+.five {
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.9));
+}
+.six{
+    background: linear-gradient(to left,rgba(0,0,0,0.3),rgba(0,0,0,0.9));
+} */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 60px;
+    color: orange;
+    /* background-attachment: fixed; */
+}
+.banner{
+    background: url("./img/folder-img.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.header{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("./img/folder-img.jpeg")center/cover no-repeat fixed;/* order is imp*/
+    /* background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed; */
+}
+ /* CSS linear gradient generator in google-www.colorzilla.com*/
+ .colorzilla{
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ef2f46+0,2989d8+50,79dd77+100&0.64+0,1+100 */
+        background: -moz-linear-gradient(left, rgba(239, 47, 70, 0.64) 0%, rgba(41, 137, 216, 0.82) 50%, rgba(121, 221, 119, 1) 100%);
+        /* FF3.6-15 */
+        background: -webkit-linear-gradient(left, rgba(239, 47, 70, 0.64) 0%, rgba(41, 137, 216, 0.82) 50%, rgba(121, 221, 119, 1) 100%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to right, rgba(239, 47, 70, 0.64) 0%, rgba(41, 137, 216, 0.82) 50%, rgba(121, 221, 119, 1) 100%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a3ef2f46', endColorstr='#79dd77', GradientType=1);
+        /* IE6-9 */
+ }
