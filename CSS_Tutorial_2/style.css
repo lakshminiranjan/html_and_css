@@ -1,0 +1,47 @@
+/* Color Property */
+/* Back-ground color */
+/* #first{
+    color:rgb(0,255,0);
+    background-color: rgb(255,255,255);
+}
+#second{
+    color:rgb(255,0,0);
+    background:rgb(0,0,0);
+}
+/* Color-names 140*/
+/* RGB Red Green Blue 0-255 */
+/* #three {
+    color: rgb(0, 0, 255);
+    background: rgb(100,100,100);
+}
+body{
+    background: rgb(122,34,45);
+}
+/* RGBA-opacity 0-1*/
+/* opacity adds transparency */
+/* 
+HSL
+HEX values #RRGGBB
+123456789 A(10) B(11) C(12) D(13) E(14) F(15)
+#FF0000-Red
+#00FF00-Green
+#0000Ff-Blue 
+htpps://coolors.co best website for colors
+
+*/
+#first{
+    color:rgb(152, 76, 76);
+    background: #000; 
+}
+#second {
+    color: #fff;
+    background: #00ff00;
+}
+#three {
+    color:#0000ff;
+    background:#f15025;
+}
+#four{
+    color:#a499b3;
+    background:#222;
+}
