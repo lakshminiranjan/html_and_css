@@ -1,0 +1,85 @@
+/* calc() */
+/* Perform Math Operations + - * / */
+/* mix and match values */
+/* *{
+    margin: 0;
+}
+.navbar{
+    background:blue;
+    height:100px;
+    color:white;
+    font-size: 3rem;
+}
+.banner{
+    background-color: red;
+    min-height: calc(100vh - 100px);
+} */
+/* Font-size Font-Family */
+/* body{
+    font-family: 'Courier New', Courier, monospace;
+}
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+} */
+/* Font-stack Generic Family */
+/* serif,sans-serif,cursive,fantasy,monoscope */
+/* Google Fonts */
+/* @import url('https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@100&family=PT+Sans:ital,wght@1,700&display=swap'); */
+/* body{ */
+    /* font-family: 'Anek Malayalam', sans-serif; */
+    /* font-style: italic; */
+    /* text-align: right; */
+/* } */
+/* h1{
+    font-family: 'PT Sans', sans-serif;
+} */
+/* .main{ */
+        /* font-family: 'PT Sans', sans-serif; */
+        /* text-align: center; */
+    /* } */
+/* Font-weight */
+/* Font-Style */
+/* Text-align */
+/* Text-Indent */
+/* .subheading{ */
+    /* font-style: normal; */
+/* } */
+/* .one{ */
+    /* font-weight: 700; */
+    /* font-style: italic; */
+    /* text-indent: 100px; */
+/* } */
+/* .two{ */
+    /* font-weight: 900; */
+    /* font-style: oblique; */
+    /* text-align: left; */
+/* } */
+/*Line-height 
+Letter-SPacing
+Word-spacing
+Text-transform
+Text-decoration
+*/
+a{
+    font-size: 40px;
+    text-decoration: none;
+}
+body{
+    text-transform: uppercase;
+}
+h1{
+    text-transform: capitalize;
+    text-decoration: line-through;
+}
+.one{
+    line-height: 0.5em;
+}
+.two{
+    letter-spacing: 5px;
+    text-decoration: overline;
+    line-height: 2rem;
+}
+.three{
+    word-spacing: 20px;
+    text-decoration: underline;
+}
