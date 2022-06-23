@@ -1,0 +1,27 @@
+/* Inheritence -gonna work unless we add a specific style to the particular element*/
+/* If we add style to parent element chindren gonna inherit them. */
+/* INHERITENCE */
+/* body{
+    font-family: monospace;
+    line-height: 1.5em;
+}
+div{
+    color:red;
+    border:3px solid black;
+}
+h1{
+    color:blue;
+} */
+/* Last-Rule and Specificity  *Universal selector */
+.red{
+    color:red;
+}
+.blue{
+    color: blue;
+}
+/* *{
+    color:aqua;->Universal Identifier means gives color to the whole html file same as java;least amount of specificity.
+} */
+*{
+    color:aqua;
+}

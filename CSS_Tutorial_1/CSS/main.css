@@ -1,0 +1,43 @@
+
+/* External CSS */
+h1 {
+    color: blue;
+    font-size: 3rem;
+}
+
+h2 {
+    color: red;
+}
+/* p{ */
+    /* color:grey; */
+/* } */
+body{
+    color:aquamarine;
+}
+h3,h4{
+    color:blueviolet;
+}
+#heading{
+    color: green;
+    background:black;
+}
+#nizy{
+    font-size: 40px;
+}
+.lowercase{
+    text-transform: lowercase;
+}
+.green{
+    color:green;
+}
+.red{
+    color:red;
+    background:black;
+}
+span{
+    text-transform: uppercase;
+}
+/* css rule */
+/* selectors h1,h2.... */
+/* Declaration Block-within flower brackets */
+/* In declaration-property and value*/
