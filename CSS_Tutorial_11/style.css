@@ -1,0 +1,81 @@
+/* Basic Selectors */
+/* *{
+    color: blue;
+}
+#heading{
+    font-size: 40px;
+    text-transform: uppercase;
+    color: red;
+}
+.heading{
+    font-size: 20px;
+    text-transform: capitalize;
+    color: green;
+}
+p{
+    letter-spacing: 20px;
+} */
+/* Descendent and child combinators */
+/* div h1{
+    color: red;
+} */
+/* div > h1{only direct child is going to be changed only h1 with no lists */
+    /* color: blue;
+}
+.header h1{
+    color: green;
+}
+.header > h1{
+    color: purple;
+} */
+/* ::first-letter and ::first-line */
+/* p::first-line{
+    font-weight: bold;
+}
+p::first-letter{
+    font-size: 3rem;
+} */
+/* :hover-when moves heads to the text it gonna change everything*/
+/* p:hover{ */
+    /* font-size: 60px; */
+    /* color: blue; */
+/* }
+.header:hover{
+    background-color: red;
+    color: white;
+}
+a:hover{
+    text-decoration: none;
+} */
+/* :link :visited :hover :active */
+/* a:link{
+    color: aqua;
+}
+a:visited{
+    color: red;
+}
+a:hover{
+    color: blue;
+}
+a:active{
+    color: green;
+} */
+/* 
+:root-root element of the document.
+html element
+general styles
+css variables
+*/
+:root{
+    /* background-color: red; */
+    font-size: 150%;
+}
+h1{
+    font-size: 3rem;/* 1rem=16px*/
+}
+.absolute{
+    font-size: 24px;
+}
+.responsive{/*This will change according to the user settings*/
+    font-size: 1.5rem;
+}
