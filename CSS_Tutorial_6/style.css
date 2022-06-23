@@ -1,0 +1,109 @@
+/* Default Display Property 
+Block:ALways starts a new line and takes full width
+INline:Does not start and only take up as much as content space
+Mobile-navbar
+List-style-type:property
+descendant selectors
+*/
+/* body{
+    text-align: center;
+}
+.block{
+    background: blue;
+    color:white;
+    /* display: inline; */
+    /* width: 150px; */
+    /* margin: 20px auto; */
+/* }
+.inline{
+    background:red;
+    color:white;
+    /* display: block; */
+/* }  */
+/* Horizontal-Centering 
+*/
+/* div{
+    background:blue;
+    padding:20px;
+    margin:20px;
+} */
+/* *{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ul li{
+    list-style-type: none;
+}
+ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    background: #222;
+    color:#f15025;
+    /* padding:5px;
+    margin:10px 10px; */
+    /* display:block; */
+    /* padding:10px 10px; */
+    /* margin: 10px; */
+/* } */ 
+/* inline-block */
+/* a{
+    font-size: 60px;
+    background: blue;
+    margin:60px;
+    display: inline-block;
+} */
+/* *{
+    margin:0%;
+    padding:0;
+    box-sizing: border-box;
+}
+.box-1,.box-2,.box-3{
+    width: 200px;
+    height: 200px;
+    color: white;
+    box-sizing: border-box;
+}
+.box-1{
+    background: red;
+    padding: 20px;
+}
+.box-2 {
+    background: blue;
+    
+}
+.box-3 {
+    background: green;
+    padding: 20px;
+    
+} */
+/* 
+display:none;
+opacity:0;
+visibility:hidden;
+*/
+/* default all the opacities are one (0-1)
+    default visibility:visible
+*/
+div{
+    background: blue;
+    margin: 10px;
+    color: white;
+}
+.none{
+    display: none;
+}
+.opacity-0{
+    opacity: 0;
+}
+.opacity-5{
+    opacity: 0.50;
+}
+.visibility{
+    visibility: hidden;
+}
+
