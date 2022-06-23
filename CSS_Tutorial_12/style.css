@@ -1,0 +1,108 @@
+/* transform :translate(),sclae(),rotate(),skew() */
+/* div{
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+} */
+/* div:hover{
+    background: coral;
+} */
+/* .one{
+    background-color: red; */
+    /* transform: translateX(50%); */
+    /* transform: scaleX(0.5); */
+    /* transform: rotate(340deg); */
+    /* transform: skewX(-20deg); */
+/* } */
+/* .two {
+    background-color: green; */
+    /* transform: translateY(-30%); */
+    /* transform: scaleY(2); */
+    /* transform: rotateZ(135deg); */
+    /* transform: skewY(-20deg); */
+/* }
+.three {
+    background-color: blue; */
+    /* transform: translate(200px,300px); */
+    /* transform: scale(1.5,1.5); */
+    /* transform: rotateX(345deg); */
+    /* transform: rotateY(90deg); */
+    /* transform: skew(40deg);only in x direction */
+    /* transform: skew(40deg,-20deg); */
+    /* transition-property: background,border-radius;
+    transition-duration: 4s,2s;
+    transition-delay: 3s; */
+    /* transition: background 3s 2s,border-radius 5s 1s; */
+    /* transition: all 4s 5s; short-hand */
+/* } */
+/* transition:change over time
+transition-property:
+transition-duration
+transition-delay:shorthand
+how the transition takes place
+transition-timing-function::after
+transition:all 3s here 5s;
+ease = default
+ease = slow start,fast,slow end
+linear = same speed start to end
+ease-in = slow start
+ease-out = slow end
+ease-in-out = slow start ,fast,slow end
+*/
+/* .three:hover{
+    border-radius: 50%;
+    background-color: coral;
+} */
+/* div{
+    width: 100px;
+    background-color: blue;
+    height: 100px;
+    color:white;
+    margin: 15px;
+    transition:all 1s ;
+}
+div:hover{
+    transform: translateX(100px);
+}
+.ease{
+    /* transition: all 2s ease; normall we should write this */
+    /* transition-timing-function: ease;
+}
+.linear{
+    transition-timing-function: linear;
+}
+.ease-in {
+    transition-timing-function: ease-in;
+}
+.ease-out {
+    transition-timing-function: ease-out;
+}
+.ease-in-out {
+    transition-timing-function: ease-in-out;
+} */ 
+div{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    color: white;
+    margin: 15px;
+    transition: all 1s;
+}
+div:hover{
+    transform: translateX(100px);
+}
+.ease{
+    transition-timing-function: ease;
+}
+.linear{
+    transition-timing-function: linear;
+}
+.ease-in{
+    transition-timing-function: ease-in;
+}
+.ease-out{
+    transition-timing-function: ease-out;
+}
+.ease-in-out{
+    transition-timing-function: ease-in-out;
+}
