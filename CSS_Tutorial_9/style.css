@@ -1,0 +1,78 @@
+/*Media-Queries 
+Responsive Design
+Style Elements on different Screen Sizes
+min-width:------starting from
+min-width:------up to
+z-index---- z-axis.position:static z-index won't work
+Mobile First
+*/
+/* body{
+    background: yellow;
+}
+.banner{
+    background: blue;
+}
+h1{
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: capitalize;
+} */
+/* Be careful while spacing */
+/* @media screen and (max-width: 900px) {
+    body{
+        background-color: red;
+    }
+    .banner{
+        background-color: yellow;
+        border-radius: 20px;
+    }
+    h1{
+        color: black;
+        font-size: 60px;
+    }
+}
+@media screen and (max-width: 1100px) {
+    body {
+        background-color: green;
+    }
+
+    .banner {
+        background-color: blue;
+    }
+
+    h1 {
+        color: red;
+        font-size: 60px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+} */
+img{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+}
+.banner{
+    margin: 20px;
+    width: 90vw;
+    height: 70vh;
+    border: 5px solid red;
+    position: relative;
+}
+.one{
+    top: 0;
+    left: 0;
+    position: relative;
+    z-index: 100;
+    /* z-index: 0; */
+}
+.two {
+    top: 10%;
+    left: 10%;
+    z-index: 1;
+}
+.three {
+    top: 20%;
+    left: 20%;
+    z-index: 2;
+}
